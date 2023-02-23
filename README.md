@@ -20,12 +20,13 @@
   </a>
 </div>
 
-<br />
+<div align="center">
+  <h1>AltSchool Pizza</h1>
+</div>
 
 <div>
   <p align="center">
     <a href="https://github.com/Ze-Austin/altschool-pizza#readme"><strong>Explore the Docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/Ze-Austin/altschool-pizza/blob/main/static/screenshot.png">View Demo</a>
     ·
