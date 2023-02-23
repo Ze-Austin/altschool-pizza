@@ -1,16 +1,16 @@
 import os
-import psycopg2
 from decouple import config
 from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-uri = os.getenv('DATABASE_URL') # or other relevant config var
-# if uri.startswith('postgres://'):
-#     uri = uri.replace('postgres://', 'postgresql://', 1)
+db_name = 'pizza_db'
 
-DATABASE_URL = os.environ['DATABASE_URL']
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+default_uri = "postgres://{}:{}@{}/{}".format('postgres', 'password', 'localhost:5432', db_name)
+
+uri = os.getenv('DATABASE_URL', default_uri) # or other relevant config var
+if uri.startswith('postgres://'):
+    uri = uri.replace('postgres://', 'postgresql://', 1)
 
 class Config:
     SECRET_KEY = config('SECRET_KEY', 'secret')
