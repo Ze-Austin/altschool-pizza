@@ -191,7 +191,7 @@ This project was made possible by:
 [license-url]: https://github.com/Ze-Austin/altschool-pizza/blob/main/LICENSE.txt
 [twitter-shield]: https://img.shields.io/badge/-@ze_austin-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
 [twitter-url]: https://twitter.com/ze_austin
-[altschool-pizza-screenshot]: static/screenshot.png
+[altschool-pizza-screenshot]: https://github.com/Ze-Austin/altschool-pizza/blob/main/Images/screenshot.png
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [flask]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 [sqlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
