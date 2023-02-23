@@ -4,7 +4,7 @@ from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-uri = os.getenv('DATABASE_URL') # or other relevant config var
+uri = os.getenv('DATABASE_URI') # or other relevant config var
 if uri.startswith('postgres://'):
     uri = uri.replace('postgres://', 'postgresql://', 1)
 
