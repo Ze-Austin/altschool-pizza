@@ -9,7 +9,8 @@ uri = os.getenv('DATABASE_URL') # or other relevant config var
 # if uri.startswith('postgres://'):
 #     uri = uri.replace('postgres://', 'postgresql://', 1)
 
-conn = psycopg2.connect(uri, sslmode='require')
+DATABASE_URL = os.environ['DATABASE_URL']
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 class Config:
     SECRET_KEY = config('SECRET_KEY', 'secret')
