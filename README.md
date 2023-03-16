@@ -179,7 +179,7 @@ This project was made possible by:
 [stars-shield]: https://img.shields.io/github/stars/Ze-Austin/altschool-pizza.svg?style=for-the-badge
 [stars-url]: https://github.com/Ze-Austin/altschool-pizza/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Ze-Austin/altschool-pizza.svg?style=for-the-badge
-[issues-url]: https://github.com/Ze-Austin/altschool-pizzaissues
+[issues-url]: https://github.com/Ze-Austin/altschool-pizza/issues
 [license-shield]: https://img.shields.io/github/license/Ze-Austin/altschool-pizza.svg?style=for-the-badge
 [license-url]: https://github.com/Ze-Austin/altschool-pizza/blob/main/LICENSE.txt
 [twitter-shield]: https://img.shields.io/badge/-@ze_austin-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
