@@ -28,7 +28,7 @@
   <p align="center">
     <a href="https://github.com/Ze-Austin/altschool-pizza#readme"><strong>Explore the Docs »</strong></a>
     <br />
-    <a href="https://github.com/Ze-Austin/altschool-pizza/blob/main/static/screenshot.png">View Demo</a>
+    <a href="https://github.com/Ze-Austin/altschool-pizza/blob/main/Images/screenshot.png">View Demo</a>
     ·
     <a href="https://github.com/Ze-Austin/altschool-pizza/issues">Report Bug</a>
     ·
